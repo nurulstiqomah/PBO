@@ -16,7 +16,7 @@ int main()
 		
 		cout<<"C. Mie Lumpur +jus"<<endl<<endl;
 		
-		cout<<"Tipe kamar A/B/C  =";cin >>paket;
+		cout<<"No pesanan A/B/C  =";cin >>paket;
 		cout<<" jumlah ="; cin>> jumlah;
 
 	switch(paket) {
