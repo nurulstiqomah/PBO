@@ -12,12 +12,9 @@ public class Main {
         Pelayanan pelayanan = new Pelayanan();
         pelayanan.layanan();
 
-        Transaksi transaksi = new Transaksi() {
-            @Override
-            public float getTrans() {
-                return 0;
-            }
-        };
+        Pembayaran pembayaran = new Pembayaran();
+        pembayaran.getTrans();
+
 
     }
 }
